@@ -1,0 +1,63 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #551a8b;
+    text-align: center;
+}
+h1{
+	font-family: 'Fresca' , sans-serif;
+	font-size: 100px;
+	font-weight: 600;
+	text-align: center;
+	color: #ff69b4;
+}
+
+button{
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Fresca' , sans-serif;
+    display: inline-block;
+    border: 3px solid deeppink;
+    background-color: #551a8b;
+    color: deeppink;
+    margin-top: 100px;
+}
+
+button:hover, button:active{
+    background-color: white;
+    color: purple;
+}
+
+button:focus{
+    outline: 0;
+}
+
+
+#Quote{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    font-family: sans-serif;
+    padding: 20px 20px 20px 20px;
+    width: 70%;
+    position: relative;
+    margin-top: 50px;
+}
+
+#author{
+    color: deeppink;
+    font-family: cursive;
+    text-align: right;
+    width: 70%;
+    font-size: 22px;
+    position:relative;
+}
+footer{
+    margin-top: 40px;
+}
+span{
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+}
