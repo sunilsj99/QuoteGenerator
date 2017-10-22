@@ -1,4 +1,4 @@
-function randomQuote() {
+(function(){function randomQuote() {
  $.ajax({
       url: "https://api.forismatic.com/api/1.0/",
       jsonp: "jsonp",
@@ -26,3 +26,4 @@ $('#random').on('click', function() {
    
   });
 });
+}());
