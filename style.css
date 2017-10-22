@@ -4,6 +4,7 @@ body{
 	background-color: #551a8b;
     text-align: center;
 }
+
 h1{
 	font-family: 'Fresca' , sans-serif;
 	font-size: 100px;
@@ -33,7 +34,6 @@ button:focus{
     outline: 0;
 }
 
-
 #Quote{
     text-align: center;
     font-size: 30px;
@@ -53,9 +53,11 @@ button:focus{
     font-size: 22px;
     position:relative;
 }
+
 footer{
     margin-top: 40px;
 }
+
 span{
     font-size: 20px;
     font-family: monospace;
