@@ -14,13 +14,14 @@ function randomQuote() {
       format: "jsonp"
     },
     success: function(quote) {
-      $('#Quote').html('&ldquo;'+quote.quoteText+'&rdquo;');
-      $('#author').html("-"+quote.quoteAuthor);
+      $('.quote').html('&ldquo;'+quote.quoteText+'&rdquo;');
+      $('.author').html("-"+quote.quoteAuthor);
     }
   });
 }
 
+// Get a random quote
 randomQuote();
 
 // Click button event listener
-$('#random').on('click', randomQuote);
+$('.randomBtn').on('click', randomQuote);
