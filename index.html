@@ -16,6 +16,28 @@
 	<div id="author"></div>
     <button id="random">Get A Quote</button>
 </div>
-<footer><span>Made With Forismatic API</span></footer>
+<footer>
+    <p>Made With Forismatic API</p>
+    <a class="twitter-share-button"
+    href="https://twitter.com/intent/tweet"
+    data-size="large">
+  Tweet</a>
+</footer>
+    <script>window.twttr = (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0],
+              t = window.twttr || {};
+            if (d.getElementById(id)) return t;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "https://platform.twitter.com/widgets.js";
+            fjs.parentNode.insertBefore(js, fjs);
+          
+            t._e = [];
+            t.ready = function(f) {
+              t._e.push(f);
+            };
+          
+            return t;
+          }(document, "script", "twitter-wjs"));</script>
 </body>
 </html>

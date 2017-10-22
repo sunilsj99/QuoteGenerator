@@ -11,6 +11,7 @@ function randomQuote() {
       success: function(quote) {
         $('#Quote').html('&ldquo;'+quote.quoteText+'&rdquo;')
         $('#author').html("-"+quote.quoteAuthor)
+        document.title = 'Quotes For Life ' + '"'+quote.quoteText+'"';
       }
     });
 }
@@ -23,6 +24,5 @@ $(document).ready(function(){
 $('#random').on('click', function() {
   
     randomQuote();
-   
   });
 });
