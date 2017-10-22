@@ -3,9 +3,12 @@ body{
 	padding: 0;
 	background-color: #551a8b;
     text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
 }
 h1{
-	font-family: 'Fresca' , sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
 	font-size: 100px;
 	font-weight: 600;
 	text-align: center;
@@ -22,13 +25,18 @@ button{
     background-color: #551a8b;
     color: deeppink;
     margin-top: 100px;
+    -webkit-transition: all 0.3s; /* Safari */
+    transition: all 0.3s;
 }
 
-button:hover, button:active{
+button:hover {
     background-color: white;
     color: purple;
 }
 
+button:active {
+    background-color: #ccc;
+}
 button:focus{
     outline: 0;
 }
@@ -38,16 +46,15 @@ button:focus{
     text-align: center;
     font-size: 30px;
     color: white;
-    font-family: sans-serif;
-    padding: 20px 20px 20px 20px;
-    width: 70%;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 20px;
     position: relative;
     margin-top: 50px;
 }
 
 #author{
     color: deeppink;
-    font-family: cursive;
+    font-family: palatino;
     text-align: right;
     width: 70%;
     font-size: 22px;
