@@ -3,17 +3,41 @@
 <head>
 	<title>Quotes for Life</title>
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script  type="text/javascript" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script  type="text/javascript" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Fresca" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="style.css">
-   
+	
+	<script>
+			window.twttr = (function(d, s, id)
+			{
+				var js, 
+					fjs = d.getElementsByTagName(s)[0],
+					t = window.twttr || {};
+				if (d.getElementById(id)) 
+					return t;
+				js = d.createElement(s);
+				js.id = id;
+				js.src = "https://platform.twitter.com/widgets.js";
+				fjs.parentNode.insertBefore(js, fjs);
+				t._e = [];
+				t.ready = function(f) 
+				{
+					t._e.push(f);
+				};
+				return t;
+			}
+			(document, "script", "twitter-wjs"));
+		</script>
 </head>
 <body>
 <div class="container">
-    <h1>Quotes<br>For<br>Life</h1>
-    <div id="Quote"></div>
+	<h1>Quotes<br>For<br>Life</h1>
+	<div id="Quote"></div>
+
+	<div id="twitter-share-button"></div>
+
 	<div id="author"></div>
-    <button id="random">Get A Quote</button>
+	<button id="random">Get A Quote</button>
 </div>
 <footer><span>Made With Forismatic API</span></footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
