@@ -20,7 +20,7 @@ function tweetQuote (quote, author, hashtags){
   // Build a twitterMessage
   var twitterMessage = '"' + quote + '" - ' + author;
 
-  var elem = document.getElementById('twitterbutton');
+  var elem = document.querySelector('.twitter-share-button');
 
   // Remove the twitter share button, if it already exists
   if (elem !== null) {
